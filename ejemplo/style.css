@@ -1,0 +1,33 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    display: grid;
+    background-image: url("./public/imanol.jpg");
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 20vw auto;
+    grid-column-gap: 10vw;
+}
+
+#tituloPrincipal{
+    color:rgb(77, 110, 201);
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 10vh auto;
+}
+
+.sectionStyle{
+    color:#F64D50;
+}
+
+.sectionBox{
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+    min-height: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+}
